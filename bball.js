@@ -6,8 +6,6 @@
         function add(){
             let img = document.createElement("img");
             img.src = "Circle_(transparent).svg";
-            img.style.width = "100px"; // Optional: set size for the image
-            img.style.height = "100px"; // Optional: set size for the image
             body.appendChild(img);
 
             var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
