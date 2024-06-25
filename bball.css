@@ -1,0 +1,47 @@
+body {
+    background-image: url('images.png');
+    background-repeat: no-repeat;
+    background-size:55%;
+    background-position-x: center;
+}
+
+body img{
+    position: absolute;
+    z-index: 9;
+    cursor: move;
+    width: 3em;
+    background-color: red;
+    border-radius: 100%;
+    border:  solid 0.4em;
+}
+
+button{
+    position: absolute;
+    top: 5%;
+    left: 70px;
+    font-size: 2.5em;
+    width: 7em;
+    background-color: #F18701;
+    border-radius: 2em;
+    border: none;
+}
+
+button:hover{
+    background-color: #F7B801;
+}
+
+.ggSpieler{
+    position: absolute;
+    top: 5%;
+    left: 77%;
+    font-size: 2.5em;
+    width: 7em;
+    background-color: #F18701;
+    border-radius: 2em;
+    border: none;
+}
+
+.ggSpieler:hover{
+    background-color: #F7B801;
+}
+
