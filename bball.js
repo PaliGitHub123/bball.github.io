@@ -1,8 +1,6 @@
         const button = document.getElementById("add");
         const body = document.getElementById("body");
 
-        button.addEventListener("click", add);
-
         function add(){
             let img = document.createElement("img");
             img.src = "Circle_(transparent).svg";
