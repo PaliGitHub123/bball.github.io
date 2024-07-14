@@ -111,6 +111,10 @@ function closeDragElement() {
     }
 }}
 
-function loschen() {
-    body.removeChild(img);
+function loschen() { 
+    let images = document.getElementsByTagName('img');
+    let l = images.length;
+    for (var i = 0; i < l; i++) {
+        images[0].parentNode.removeChild(images[0]);
+    }
 }
